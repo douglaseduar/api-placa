@@ -1,0 +1,23 @@
+{
+  "name": "api-placa",
+  "version": "0.0.1",
+  "description": "Está biblioteca é uma Api Wrapper simples para buscar dados de veículos a partir da placa, para isso é utilizado os dados fornecidos do site tabelafipebrasil.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglaseduar/api-placa.git"
+  },
+  "keywords": ["api-placa", "placa", "carro", "veiculo", "automovel"],
+  "author": "douglaseduar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglaseduar/api-placa/issues"
+  },
+  "homepage": "https://github.com/douglaseduar/api-placa#readme",
+  "dependencies": {
+    "puppeteer": "^19.5.0"
+  }
+}
