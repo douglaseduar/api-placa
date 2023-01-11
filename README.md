@@ -1,4 +1,7 @@
-# API PLACA 🚗
+[![npm version](https://badge.fury.io/js/api-placa.svg)](https://badge.fury.io/js/api-placa)
+
+
+# 🚗 API PLACA 
 
 ## Apresentação:
 
@@ -19,7 +22,7 @@ const {pesquisa_placa} = require("api-placa")
 
 ### - Exemplo
 ```
-pesquisa_placa(placa)
+pesquisa_placa(<PLACA>).then(resultado => console.log(resultado));
 
 {
   marca: 'Fiat',
